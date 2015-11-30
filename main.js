@@ -1,3 +1,9 @@
+/*
+    Web workers have no access to:
+    = The window object
+    = The document object
+    = The parent object
+*/
 var w;
 
 function startWorker() {
